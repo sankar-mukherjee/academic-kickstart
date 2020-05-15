@@ -1,68 +1,56 @@
 +++
-# A Recent Blog Posts section created with the Pages widget.
-# This section displays recent blog posts from `content/post/`.
-
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+# Accomplishments widget.
+widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Awards"
+title = "Accomplish&shy;ments"
 subtitle = ""
 
-[content]
-  # Page type to display. E.g. post, talk, or publication.
-  page_type = "post"
-  
-  # Choose how much pages you would like to display (0 = all pages)
-  count = 5
-  
-  # Choose how many pages you would like to offset by
-  offset = 0
+# Date format
+#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+date_format = "Jan 2006"
 
-  # Page order. Descending (desc) or ascending (asc) date.
-  order = "desc"
+# Accomplishments.
+#   Add/remove as many `[[item]]` blocks below as you like.
+#   `title`, `organization` and `date_start` are the required parameters.
+#   Leave other parameters empty if not required.
+#   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-  # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    author = ""
-    exclude_featured = false
-  
-[design]
-  # Toggle between the various page layout types.
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   4 = Citation (publication only)
-  view = 2
-  
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-  
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
-  
-  # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+[[item]]
+  organization = "Christian Benoit Association"
+  organization_url = "http://www.gipsa-lab.fr/acb/"
+  title = "Winner of 10th Christian Benoît Award" 
+  url = "https://isca-speech.org/iscaweb/index.php/18-dl/275-cba-winner-2019"
+  date_start = "2019-09-01"
+  description = "Research project on *Neuro-behavioral Aware Conversational Agent*"
 
-  # Text color (true=light or false=dark).
-  # text_color_light = true  
+[[item]]
+  organization = "ISCA"
+  organization_url = "https://www.isca-speech.org/iscaweb/"
+  title = "Travel Grant"
+  date_start = "2014-09-01"
   
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
+[[item]]
+  organization = "Oriental COCOSDA"
+  title = "Best Student Paper"
+  date_start = "2013-07-01"
+  description = """
+  **Paper:** *PL-ILT: A web tool for creation of pronunciation lexicon in Indian languages.*
+  
+  **Project Description:** A web development tool to create comprehensive machine readable pronunciation lexicon for Indian languages.
+  """
+
+[[item]]
+  organization = "Howrah Municipal Corporation"
+  title = "Top Scorer in +10 and +12"
+  date_start = "2005-05-01"
+  date_end = "2003-05-01"
+
+[[item]]
+  organization = "BANGIYO BHUGOL MANCHA"
+  title = "Geography talent"
+  date_start = "2000-05-01"
+  
 +++
