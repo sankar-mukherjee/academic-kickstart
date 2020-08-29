@@ -48,7 +48,7 @@ subtitle = ""
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics and Signal Processing"
-  description = "Since the beginning of time"  
+  description = "8 years"  
   
 [[feature]]
   icon = "language"

@@ -10,18 +10,19 @@ authors:
 superuser: true
 
 # Role/position
-role: Speech Scientist
+role: Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: DefinedCrowd
+- name: 
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Speech Processing
+- Speech Synthesis
+- Audio Signal Processing
+- Conversational AI 
 - Human Computer Interaction 
 - Artificial General Intelligence
 
@@ -70,8 +71,4 @@ user_groups:
 - Visitors
 ---
 
-I'm working as a Speech Scientist at DefinedCrowd. My goal is to help DefinedCrowd to create high quality training data to fuel AI applications and initiatives. We use the crowdsourcing and machine learning techniques to generate high quality data.
-
-I started working in speech synthesis systems, mostly improving the prosody modelling using multiple ML pipelines back in 2013. While studying these techniques I was curious about their underlying mathematical functionality as well as the effects of artificial speeches on human brain. This ultimately leads me to study human brain and do a PhD at the intersection of Sensorimotor communication, Cognitive neuroscience, Speech processing and Machine Learning.
-
-I have worked on different domains (speech synthesis, prosody modelling, speech/speaker recognition, computational linguistics, cognitive neuroscience, sports science, educational service) with different technology stacks (Python, PySpark, PyTorch, JavaScript, HTML/CSS, C#, MySQL, flutter) communicating across organization. I occasionally participate in Kaggle competitions. In my spare time i like to travel and practice my Italian and French. I like to learn new things and always look for challenges.
+I have worked on speech synthesis, prosody modelling, speech/speaker recognition, speech imitation modelling, audio event detection, computational neuroscience, dual interaction. I have used different technology stacks such as Python, PySpark, PyTorch, JAVA, JS, C#, SQL, Matlab. I occasionally participate in Kaggle competitions. In my spare time i like to travel and practice my Italian and French. I like to learn new things and always look for challenges. 
